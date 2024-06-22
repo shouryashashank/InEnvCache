@@ -23,7 +23,9 @@ setup(
         "Operating System :: OS Independent",
     ],  
     install_requires=["bson >= 0.5.10",
-                      "pycryptodome >= 3.20.0"],
+                      "pycryptodome >= 3.20.0",
+                      "json >= 2.0.9",
+                      "kubernetes >= 24.2.0"],
 
     extras_require={
         "dev": ["pytest>=7.0", "twine>=4.0.2"],
